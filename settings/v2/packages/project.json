@@ -1,0 +1,34 @@
+{
+  "__version__": "1.0.5",
+  "layer": [
+    {
+      "name": "default",
+      "value": 1
+    },
+    {
+      "name": "wall",
+      "value": 2
+    },
+    {
+      "name": "movegrid",
+      "value": 4
+    },
+    {
+      "name": "tilemap",
+      "value": 8
+    }
+  ],
+  "fbx": {
+    "legacyFbxImporter": {
+      "visible": true
+    }
+  },
+  "general": {
+    "designResolution": {
+      "width": 2208,
+      "height": 1242,
+      "fitWidth": false,
+      "fitHeight": true
+    }
+  }
+}
