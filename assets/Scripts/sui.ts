@@ -12,17 +12,17 @@ export class sui extends Component {
 
   async sui_account_create() {
     // @ts-ignore
-    // const obelisk_sdk = window.obelisk;
-    //   const metadata = await obelisk_sdk.loadMetadata(NETWORK, PACKAGE_ID);
-    //   const privateKey = '62f3f0ced77b2c2d6cc879b77faa0dbb8be58326155d8d80c6c8ae4496c1448c'
-    //   const obelisk = new obelisk_sdk.Obelisk({
-    //     networkType: NETWORK,
-    //     packageId: PACKAGE_ID,
-    //     metadata: metadata,
-    //     secretKey: privateKey,
-    //   });
-    //   console.log(obelisk.getAddress());
-    //   await obelisk.requestFaucet(obelisk.getAddress(), NETWORK);
+    const obelisk_sdk = window.obelisk;
+      const metadata = await obelisk_sdk.loadMetadata(NETWORK, PACKAGE_ID);
+      const privateKey = '62f3f0ced77b2c2d6cc879b77faa0dbb8be58326155d8d80c6c8ae4496c1448c'
+      const obelisk = new obelisk_sdk.Obelisk({
+        networkType: NETWORK,
+        packageId: PACKAGE_ID,
+        metadata: metadata,
+        secretKey: privateKey,
+      });
+      console.log(obelisk.getAddress());
+      await obelisk.requestFaucet(obelisk.getAddress(), NETWORK);
     }
     // else {
     //   const metadata = await obelisk_sdk.loadMetadata(NETWORK, PACKAGE_ID);

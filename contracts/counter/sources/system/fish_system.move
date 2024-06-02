@@ -39,7 +39,7 @@ module counter::fish_system {
             string::utf8(DESCRIPTION),
             // Project URL is usually static
             string::utf8(b"https://objects.club/"),
-            string::utf8(b"{image_url}"),
+            string::utf8(b"https://raw.githubusercontent.com/Zombieliu/fish-game/main/assets/gif/{image_url}.gif"),
             // Creator field can be any
             string::utf8(b"Objects Dao Developer")
         ];

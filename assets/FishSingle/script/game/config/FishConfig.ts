@@ -53,7 +53,7 @@ export class FishConfig {
         // new FishInfo(19, "Big Four", 7, 0.5),
         new FishInfo(20, "Golden Hammerhead Shark", 7, 0.5),
         new FishInfo(21, "Golden Seahorse", 7, 0.6),
-        // new FishInfo(22, "Five Blessings", 8, 0.4),
+        new FishInfo(22, "Five Blessings", 8, 0.4),
         new FishInfo(23, "Golden Sea Turtle", 8, 0.7),
         // new FishInfo(24, "Golden Shark", 8, 0.5),
         // new FishInfo(25, "Blue Shark", 8, 0.5),
