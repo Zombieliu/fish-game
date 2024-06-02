@@ -6,6 +6,7 @@
   },
   "scripts": {
     "dev": "pnpm obelisk hello && pnpm run localnode && sleep 5 && ts-node scripts/generateAccount.ts && pnpm obelisk faucet --network localnet && pnpm obelisk publish --network localnet --configPath ./assets/Scripts/obelisk.config.ts && ts-node scripts/storeConfig.ts localnet && tail -f localnode.nohup.out",
+    "dev:devnet": "pnpm obelisk hello && ts-node scripts/generateAccount.ts && pnpm obelisk faucet --network devnet && pnpm obelisk publish --network devnet --configPath ./assets/Scripts/obelisk.config.ts && ts-node scripts/storeConfig.ts devnet",
     "dev:docker": "pnpm obelisk hello && pnpm run localnode:docker && sleep 5 && ts-node scripts/generateAccount.ts && pnpm obelisk faucet --network localnet && pnpm obelisk publish --network localnet --configPath ./assets/Scripts/obelisk.config.ts && ts-node scripts/storeConfig.ts localnet && tail -f localnode.nohup.out",
     "faucet-localnet": "pnpm obelisk faucet --network localnet",
     "faucet-devnet": "pnpm obelisk faucet --network devnet",
