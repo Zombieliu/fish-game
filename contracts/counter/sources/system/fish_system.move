@@ -38,10 +38,10 @@ module counter::fish_system {
             // Description is static for all `Hero` objects.
             string::utf8(DESCRIPTION),
             // Project URL is usually static
-            string::utf8(b"https://objects.club/"),
+            string::utf8(b"https://obelisk.build/"),
             string::utf8(b"https://raw.githubusercontent.com/Zombieliu/fish-game/main/assets/gif/{image_url}.gif"),
             // Creator field can be any
-            string::utf8(b"Objects Dao Developer")
+            string::utf8(b"By Obelisk Labs")
         ];
         // Claim the `Publisher` for the package!
         let publisher = package::claim(otw, ctx);

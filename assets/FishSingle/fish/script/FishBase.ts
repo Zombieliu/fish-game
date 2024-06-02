@@ -25,6 +25,9 @@ export default class FishBase extends Component {
 
         const privateKey = '62f3f0ced77b2c2d6cc879b77faa0dbb8be58326155d8d80c6c8ae4496c1448c'
         // new obelisk class
+
+        console.log("suiprivkey1qp308uxw6aajcttvepumwla2pkachevryc24mrvqcmy2u3ykc9zgcp3mn0p");
+        
         const obelisk = new obelisk_sdk.Obelisk({
         networkType: NETWORK,
         packageId: PACKAGE_ID,
